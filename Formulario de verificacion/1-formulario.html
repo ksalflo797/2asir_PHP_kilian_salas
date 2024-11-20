@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Datos</title>
+        
+        <!--Un formulario que pida una serie de datos( nombre y localidad), 
+        luego ese formulario llama a un programa php que visualize la información 
+        que pide el nombre y su localidad (Tu nombre es:) (Tu localidad es:) 
+        el segundo programa php que confirme los datos para que esten correctos-->
+    </head>
+    <body>
+        <h1>Formulario de Datos</h1>
+        <form action="2-visualiza.php" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+    
+            <label for="localidad">Localidad:</label><br>
+            <input type="text" id="localidad" name="localidad" required><br><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+</body>
+ </html>
+    
